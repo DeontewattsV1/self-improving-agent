@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/self_improving_banner.png" alt="Self-Improving Agent" width="100%" />
+  <img src="docs/assets/product/readme-hero.svg" alt="Self-Improving Agent — learn, adapt, evolve" width="100%" />
 </p>
 
 <p align="center">
@@ -57,6 +57,16 @@ Drop into your agent workspace:
 cp -r .learnings/ /path/to/agent/workspace/
 cp SKILL.md /path/to/agent/workspace/.agents/skills/self-improvement.md
 ```
+
+## Visual assets & releases
+
+- [README hero](docs/assets/product/readme-hero.svg)
+- [16:9 launch graphic](docs/assets/product/launch-16x9.svg)
+- [Interactive CodeArt learning demo](docs/assets/product/codeart-demo.html)
+- [Visual asset manifest](docs/assets/product/manifest.json)
+- [Release graphics workflow](.github/workflows/release-visual-assets.yml)
+
+Published GitHub Releases automatically receive rendered PNG copies of the SVG masters, `SHA256SUMS`, and ZIP/TAR visual bundles. Manual workflow runs create the same package as a GitHub Actions artifact without publishing a release.
 
 ---
 
